@@ -1,0 +1,106 @@
+# HabitOn - 앱 스토어 키워드
+
+## iOS 키워드 (최대 100자, 쉼표로 구분)
+
+habit tracker, 습관, 루틴, 생산성, 자기계발, 동기부여, 목표, 리마인더, 연속기록, 오프라인
+
+
+---
+
+키워드 전략
+주요 키워드 (검색량 높음)
+
+    habit tracker (습관 추적기)
+
+    habits (습관)
+
+    daily habits (일일 습관)
+
+    routine (루틴)
+
+    productivity (생산성)
+
+보조 키워드 (검색량 중간)
+
+    streak tracker (연속 기록 추적기)
+
+    goal tracker (목표 추적기)
+
+    self improvement (자기계발)
+
+    motivation (동기부여)
+
+    reminder app (리마인더 앱)
+
+롱테일 키워드 (구체적)
+
+    build better habits (더 나은 습관 만들기)
+
+    track daily habits (매일 습관 추적하기)
+
+    habit streak tracker (습관 연속 기록 추적기)
+
+    simple habit tracker (간단한 습관 추적기)
+
+    offline habit tracker (오프라인 습관 추적기)
+
+Android 카테고리 키워드 (ASO용)
+
+주요 카테고리: 생산성 (Productivity)
+
+사용할 태그:
+
+    Habit Tracker (습관 추적기)
+
+    Routine Builder (루틴 빌더)
+
+    Goal Tracking (목표 추적)
+
+    Productivity Tool (생산성 도구)
+
+    Self Improvement (자기계발)
+
+    Daily Habits (일일 습관)
+
+    Streak Counter (연속 기록 카운터)
+
+    Personal Growth (개인 성장)
+
+    Time Management (시간 관리)
+
+    Lifestyle Tracker (라이프스타일 추적기)
+
+검색 최적화 팁
+
+    앱 제목에 "Habit Tracker" 포함 - 검색량이 가장 높은 핵심 키워드
+
+    부제목/짧은 설명에 "Simple(간단한)"과 "Daily(매일의)" 강조
+
+    앱 설명 첫 200자에 주요 키워드(예: habit tracker, daily habits, routine) 배치
+
+    리뷰에 자연스럽게 관련 키워드(예: 습관 추적, 루틴, 연속 기록 등) 포함
+
+    스크린샷에 주요 키워드가 포함된 문구 추가 (예: “습관을 기록하세요”, “매일의 루틴 유지” 등)
+
+
+경쟁 앱 분석 키워드 참고
+
+유사 인기 앱에서 추출한 키워드:
+
+    atomic habits (아토믹 해빗)
+
+    habit formation (습관 형성)
+
+    routine tracker (루틴 추적기)
+
+    daily planner (일정 관리)
+
+    life goals (인생 목표)
+
+    consistency tracker (지속성 추적기)
+
+    personal development (개인 성장)
+
+    wellness tracker (웰니스 추적기)
+
+    behavior tracker (행동 추적기)

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Nomeaning - Apps & Services</title>
+    <meta name="description" content="Discover thoughtfully crafted apps and services by Project Nomeaning - from puzzle games to productivity tools.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #3a3a3a;
+            --primary-dark: #2a2a2a;
+            --primary-light: #4a4a4a;
+            --secondary-color: #5a5a5a;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --text-white: #ffffff;
+            --bg-light: #f9fafb;
+            --bg-white: #ffffff;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+            --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: var(--bg-light);
+        }
+
+        /* Header Styles */
+        header {
+            background: var(--primary-color);
+            color: var(--text-white);
+            padding: 4rem 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg width="60" height="60" xmlns="http://www.w3.org/2000/svg"><rect width="60" height="60" fill="none"/><circle cx="30" cy="30" r="1.5" fill="rgba(255,255,255,0.05)"/></svg>');
+            opacity: 0.6;
+        }
+
+        .header-logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 2rem;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            position: relative;
+            z-index: 2;
+        }
+
+        .header-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+
+        .tagline {
+            font-size: 1.25rem;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+            text-align: center;
+            color: var(--text-dark);
+        }
+
+        /* App Cards Grid */
+        .apps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        .app-card {
+            background: var(--bg-white);
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .app-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .app-image {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+            background: #f8f9fa;
+            border-radius: 1rem 1rem 0 0;
+        }
+
+        .app-content {
+            padding: 2rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .app-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .app-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 14px;
+            box-shadow: var(--shadow-md);
+            object-fit: cover;
+        }
+
+        .app-title-wrapper h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 0.25rem;
+        }
+
+        .app-subtitle {
+            font-size: 0.875rem;
+            color: var(--text-light);
+            font-weight: 500;
+        }
+
+        .app-description {
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+            line-height: 1.7;
+            flex-grow: 1;
+        }
+
+        .app-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .tag {
+            background: var(--primary-color);
+            color: var(--text-white);
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .app-links {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.875rem;
+            transition: all 0.2s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-secondary {
+            background: var(--secondary-color);
+            color: var(--text-white);
+            border: 1px solid var(--secondary-color);
+        }
+
+        .btn-secondary:hover {
+            background: var(--primary-light);
+            border-color: var(--primary-light);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text-dark);
+            color: white;
+            padding: 3rem 2rem;
+            margin-top: 4rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .footer-content h3 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-content p {
+            opacity: 0.8;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-email {
+            color: var(--text-white);
+            text-decoration: none;
+            font-weight: 600;
+            background: var(--primary-color);
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            display: inline-block;
+            transition: all 0.2s ease;
+        }
+
+        .footer-email:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .footer-bottom {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            opacity: 0.6;
+            font-size: 0.875rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .tagline {
+                font-size: 1rem;
+            }
+
+            .apps-grid {
+                grid-template-columns: 1fr;
+            }
+
+            main {
+                padding: 2rem 1rem;
+            }
+
+            header {
+                padding: 3rem 1rem;
+            }
+        }
+
+        /* Loading animation for images */
+        .app-image[src=""] {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            position: relative;
+        }
+
+        /* Status badge */
+        .status-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .status-live {
+            background: var(--primary-color);
+            color: var(--text-white);
+        }
+
+        .status-soon {
+            background: var(--secondary-color);
+            color: var(--text-white);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-logo">
+                <img src="ProjectNoMeaning.jpg" alt="Project Nomeaning Logo">
+            </div>
+            <h1>Project Nomeaning</h1>
+            <p class="tagline">Crafting thoughtful apps and services that matter</p>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="section-title">Our Apps</h2>
+        
+        <div class="apps-grid">
+            <!-- Block Clear App Card -->
+            <article class="app-card">
+                <img src="block-clear/assets/effect.jpg" alt="Block Clear Game Screenshot" class="app-image">
+                <div class="app-content">
+                    <span class="status-badge status-live">Live on App Store</span>
+                    <div class="app-header">
+                        <img src="block-clear/icon.png" alt="Block Clear Icon" class="app-icon">
+                        <div class="app-title-wrapper">
+                            <h3>Block Clear</h3>
+                            <p class="app-subtitle">Relaxing Puzzle Challenge</p>
+                        </div>
+                    </div>
+                    <p class="app-description">
+                        A stylish daily puzzle game that anyone can pick up in seconds. Slide unique block shapes onto an 8×8 board, clear lines to score big combos, and compete on global and weekly leaderboards.
+                    </p>
+                    <div class="app-tags">
+                        <span class="tag">Puzzle</span>
+                        <span class="tag">Brain Game</span>
+                        <span class="tag">Casual</span>
+                        <span class="tag">Leaderboards</span>
+                        <span class="tag">Offline</span>
+                    </div>
+                    <div class="app-links">
+                        <a href="https://apps.apple.com/au/app/block-clear-game-for-everyone/id6755074719" class="btn btn-primary">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            App Store
+                        </a>
+                        <a href="block-clear/support_en.html" class="btn btn-secondary">Support</a>
+                        <a href="block-clear/privacy-policy_en.html" class="btn btn-secondary">Privacy</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- HabitOn App Card -->
+            <article class="app-card">
+                <img src="habiton-support/assets/store-content/en/screenshots/home.png" alt="HabitOn Habit Tracker Screenshot" class="app-image">
+                <div class="app-content">
+                    <span class="status-badge status-live">Live on Stores</span>
+                    <div class="app-header">
+                        <img src="habiton-support/assets/store-content/Icon/web/icon-192.png" alt="HabitOn Icon" class="app-icon">
+                        <div class="app-title-wrapper">
+                            <h3>HabitOn</h3>
+                            <p class="app-subtitle">Personal Habit Tracker</p>
+                        </div>
+                    </div>
+                    <p class="app-description">
+                        Transform your life, one habit at a time. A simple and powerful habit tracker with flexible scheduling, streak tracking, and insightful analytics. All your data stays private on your device.
+                    </p>
+                    <div class="app-tags">
+                        <span class="tag">Productivity</span>
+                        <span class="tag">Health</span>
+                        <span class="tag">Self-Improvement</span>
+                        <span class="tag">Privacy-First</span>
+                        <span class="tag">No Ads</span>
+                    </div>
+                    <div class="app-links">
+                        <a href="https://apps.apple.com/au/app/habiton-daily-habit-tracker/id6754834633" class="btn btn-primary">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            App Stores
+                        </a>
+                        <a href="habiton-support/en/SUPPORT.html" class="btn btn-secondary">Support</a>
+                        <a href="habiton-support/en/PRIVACY_POLICY.html" class="btn btn-secondary">Privacy</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Get in Touch</h3>
+            <p>Have questions, feedback, or suggestions? We'd love to hear from you.</p>
+            <a href="mailto:project.nomeaning@gmail.com" class="footer-email">project.nomeaning@gmail.com</a>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Project Nomeaning. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

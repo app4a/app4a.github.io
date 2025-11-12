@@ -1,0 +1,75 @@
+# HabitOn - App Store Description
+
+## Full Description (iOS & Android - Max 4000 characters)
+
+Transform your life, one habit at a time with HabitOn – your personal habit tracker designed for simplicity and success.
+
+🎯 BUILD BETTER HABITS
+Create and track daily habits with flexible scheduling options. Whether it's exercising daily, reading on weekdays, or practicing meditation weekly – HabitOn adapts to your lifestyle.
+
+✨ FLEXIBLE SCHEDULING
+• Daily habits for consistent routines
+• Weekday-only for work habits
+• Weekly habits with your chosen day
+• Bi-weekly patterns for sustainable growth
+• Monthly routines for long-term goals
+• Custom schedules tailored to your needs
+
+📊 TRACK YOUR PROGRESS
+Watch your streaks grow and celebrate milestones! HabitOn automatically calculates your current streak, longest streak, and completion rate – giving you the motivation to keep going.
+
+🔔 SMART REMINDERS
+Never miss a habit with intelligent notifications that respect your schedule. Multiple habits at the same time? We merge them into one convenient reminder. All notifications are local – no account required.
+
+📈 INSIGHTFUL ANALYTICS
+• Visual completion calendar showing your consistency
+• Streak tracking with milestone celebrations
+• Completion rate statistics
+• Historical data to see your growth
+• Category-based organization
+
+🎨 PERSONALIZED EXPERIENCE
+Choose from pre-defined categories (Health, Productivity, Learning, etc.) or create custom habits with your own icons. Each habit can have its own color and schedule.
+
+🔒 YOUR DATA, YOUR DEVICE
+Complete privacy – all data stays on your device. No cloud sync means no account signup, no data collection, and no privacy concerns. Your habits are yours alone.
+
+💪 BUILT FOR SUCCESS
+• Clean, intuitive interface
+• Date navigation to log missed days
+• Flexible habit management
+• No ads, no distractions
+• Works offline always
+
+📱 PERFECT FOR:
+• Building morning routines
+• Tracking fitness goals
+• Learning new skills
+• Breaking bad habits
+• Maintaining consistency
+• Personal development
+• Health and wellness
+• Productivity improvement
+
+🌟 WHY HABITON?
+Unlike complicated habit trackers, HabitOn focuses on what matters: helping you show up every day. No overwhelming features, no complicated setup – just simple, effective habit tracking.
+
+Start your journey to better habits today. Download HabitOn and commit to the person you want to become.
+
+---
+
+CHARACTER COUNT: ~2,200 (well within 4,000 limit)
+
+## Short Description (Android - Max 80 characters)
+
+Simple habit tracker. Build better habits, track streaks, stay motivated.
+
+CHARACTER COUNT: 72
+
+---
+
+## Promotional Text (iOS - Max 170 characters)
+
+Track habits with flexible scheduling. Build streaks, stay consistent, and transform your routine. All your data stays private on your device. No account needed.
+
+CHARACTER COUNT: 167

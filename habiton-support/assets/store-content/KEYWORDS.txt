@@ -1,0 +1,78 @@
+# HabitOn - App Store Keywords
+
+## iOS Keywords (Max 100 characters, comma-separated)
+
+habit tracker,habits,streak,daily,routine,productivity,goals,self improvement,motivation,reminder
+
+CHARACTER COUNT: 99
+
+---
+
+## Keyword Strategy
+
+### Primary Keywords (High Search Volume)
+- habit tracker
+- habits
+- daily habits
+- routine
+- productivity
+
+### Secondary Keywords (Medium Volume)
+- streak tracker
+- goal tracker
+- self improvement
+- motivation
+- reminder app
+
+### Long-tail Keywords (Specific)
+- build better habits
+- track daily habits
+- habit streak tracker
+- simple habit tracker
+- offline habit tracker
+
+---
+
+## Android Category Keywords (For ASO)
+
+**Primary Category**: Productivity
+
+**Tags to Use**:
+- Habit Tracker
+- Routine Builder
+- Goal Tracking
+- Productivity Tool
+- Self Improvement
+- Daily Habits
+- Streak Counter
+- Personal Growth
+- Time Management
+- Lifestyle Tracker
+
+---
+
+## Search Optimization Tips
+
+1. **Title includes "Habit Tracker"** - highest search term
+2. **Subtitle/Short description** emphasizes "Simple" and "Daily"
+3. **Description** front-loads important keywords in first 200 characters
+4. **Reviews** should naturally include these terms
+5. **Screenshots** should have text overlays with key terms
+
+---
+
+## Competitor Analysis Keywords to Consider
+
+From similar successful apps:
+- atomic habits
+- habit formation
+- routine tracker
+- daily planner
+- life goals
+- consistency tracker
+- personal development
+- wellness tracker
+- behavior tracker
+
+
+

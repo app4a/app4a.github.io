@@ -3,14 +3,13 @@ English (US)
 ====================
 Name: Block Clear: Game For Everyone
 Subtitle: Relaxing Puzzle Challenge
-Promotional Text: Slide blocks, clear the board, and chase weekly leaderboards! Watch rewarded ads to earn extra continues and never lose your streak.
+Promotional Text: Slide blocks, clear the board, and never lose your streak.
 Description:
-Block Clear is a stylish daily puzzle that anyone can pick up in seconds. Slide unique block shapes onto an 8x8 board, clear lines to score big combos, and push for the top of the global and weekly leaderboards.
+Block Clear is a stylish daily puzzle that anyone can pick up in seconds. Slide unique block shapes onto an 8x8 board, clear lines to score big combos!
 
 FEATURES
 • Classic Mode – Take your time, plan smart moves, and chase high scores without a timer.
 • Time Attack – Race the clock, stack bonus seconds, and test your reflexes in a fast-paced challenge.
-• Game Center – Compete globally, climb weekly leaderboards, and collect achievements.
 • Accessibility First – Reduce motion support, color-friendly visuals, haptics toggle, and one-handed play.
 • Offline Friendly – Play Classic Mode anywhere; your progress syncs when you reconnect.
 
@@ -23,7 +22,8 @@ WHY PLAY BLOCK CLEAR?
 SUPPORT & COMMUNITY
 Need help or have feedback? Email project.nomeaning@gmail.com. 
 
-Keywords: puzzle,block,brain,relax,casual,logic,leaderboard,time attack,offline,game center
+Keywords: 
+puzzle,block,brain,relax,casual,logic,time attack,offline
 
 ====================
 Korean (KR)
